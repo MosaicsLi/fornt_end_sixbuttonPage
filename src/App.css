@@ -56,10 +56,15 @@ body{
   border-radius: 24px;
 }
 .button span{
+  font-family: Arial, sans-serif;
   font-size: small;
 }
 .button .btntitle{
   color: #C4292E;
+  font-size: 32px;
+}
+.button .title{
+  color: #f6f6f6;
   font-size: 32px;
 }
 .button:hover {
@@ -89,7 +94,7 @@ body{
 }
 .maps{
   width: 30vh;
-  margin: -2% 22% 0% -10%;
+  margin: 0% 22% 0% -10%;
   background-color: #FF5757;
   border: 2px solid #FF5757;
   color: #f6f6f6;
@@ -103,7 +108,7 @@ body{
 }
 .weather{
   width: 20vh;
-  margin: -2% -10% 0% 25%;
+  margin: -2% -10% 0% 15%;
   background-color: #38B6FF;
   border: 2px solid #38B6FF;
   color: #f6f6f6;

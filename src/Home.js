@@ -28,14 +28,14 @@ class Home extends React.Component {
                         <Link className="button flightinfo" to="/" >
                             <img className="icon" src={airplane}></img>
                             <div>
-                                <span>Flight Info</span><br />
+                                <span className="title">Flight Info</span><br />
                                 <span>Your upcoming flight</span>
                             </div>
                         </Link>
                         <Link className="button checkininfo" to="/" >
                             <img className="icon" src={passport}></img>
                             <div>
-                                <span>Check-in<br />Info</span><br />
+                                <span className="title">Check-in<br />Info</span><br />
                                 <span>Your upcoming flight</span>
                             </div>
                         </Link>
@@ -49,14 +49,14 @@ class Home extends React.Component {
                         <Link className="button maps" to="/" >
                             <img className="icon" src={map}></img>
                             <div>
-                                <span>Maps</span><br />
+                                <span className="title">Maps</span><br />
                                 <span>Explore Taoyuan Airport</span>
                             </div>
                         </Link>
                         <Link className="button weather" to="/" >
                             <img className="icon" src={weather}></img>
                             <div>
-                                <span>Weather</span><br />
+                                <span className="title">Weather</span><br />
                                 <span>How's the weather today</span>
                             </div>
                         </Link>
